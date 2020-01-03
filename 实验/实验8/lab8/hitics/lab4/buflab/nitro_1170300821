@@ -1,0 +1,11 @@
+
+nitroo.o：     文件格式 elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	b8 69 dd d3 57       	mov    $0x57d3dd69,%eax
+   5:	8d 6c 24 18          	lea    0x18(%esp),%ebp
+   9:	68 21 8d 04 08       	push   $0x8048d21
+   e:	c3                   	ret    

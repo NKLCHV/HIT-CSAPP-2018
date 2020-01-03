@@ -1,0 +1,5 @@
+﻿  源.c
+c:\users\dell\desktop\月照花林皆似霰\计算机系统\2.97\2.97\源.c(66): warning C4552: ”<<“: 未使用表达式结果
+c:\users\dell\desktop\月照花林皆似霰\计算机系统\2.97\2.97\源.c(69): warning C4552: ”>>“: 未使用表达式结果
+c:\users\dell\desktop\月照花林皆似霰\计算机系统\2.97\2.97\源.c(71): warning C4018: “>”: 有符号/无符号不匹配
+c:\users\dell\desktop\月照花林皆似霰\计算机系统\2.97\2.97\源.c(26): error C4700: 使用了未初始化的局部变量“I”

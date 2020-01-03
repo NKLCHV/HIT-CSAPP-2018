@@ -1,0 +1,11 @@
+
+boomm.o：     文件格式 elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	b8 69 dd d3 57       	mov    $0x57d3dd69,%eax
+   5:	bd 70 3e 68 55       	mov    $0x55683e70,%ebp
+   a:	68 a7 8c 04 08       	push   $0x8048ca7
+   f:	c3                   	ret    

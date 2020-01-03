@@ -1,0 +1,1 @@
+char string[256];

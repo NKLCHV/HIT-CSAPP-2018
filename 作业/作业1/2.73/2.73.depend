@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1538451385 source:c:\users\dell\desktop\月照花林皆似霰\计算机系统\2.73\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

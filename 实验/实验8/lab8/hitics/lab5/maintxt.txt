@@ -1,0 +1,43 @@
+
+main.o：     文件格式 elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	8d 4c 24 04          	lea    0x4(%esp),%ecx
+   4:	83 e4 f0             	and    $0xfffffff0,%esp
+   7:	ff 71 fc             	pushl  -0x4(%ecx)
+   a:	55                   	push   %ebp
+   b:	89 e5                	mov    %esp,%ebp
+   d:	53                   	push   %ebx
+   e:	51                   	push   %ecx
+   f:	e8 fc ff ff ff       	call   10 <main+0x10>
+  14:	05 01 00 00 00       	add    $0x1,%eax
+  19:	8b 90 00 00 00 00    	mov    0x0(%eax),%edx
+  1f:	8b 12                	mov    (%edx),%edx
+  21:	85 d2                	test   %edx,%edx
+  23:	74 0c                	je     31 <main+0x31>
+  25:	8b 80 00 00 00 00    	mov    0x0(%eax),%eax
+  2b:	8b 00                	mov    (%eax),%eax
+  2d:	ff d0                	call   *%eax
+  2f:	eb 14                	jmp    45 <main+0x45>
+  31:	83 ec 0c             	sub    $0xc,%esp
+  34:	8d 90 00 00 00 00    	lea    0x0(%eax),%edx
+  3a:	52                   	push   %edx
+  3b:	89 c3                	mov    %eax,%ebx
+  3d:	e8 fc ff ff ff       	call   3e <main+0x3e>
+  42:	83 c4 10             	add    $0x10,%esp
+  45:	b8 00 00 00 00       	mov    $0x0,%eax
+  4a:	8d 65 f8             	lea    -0x8(%ebp),%esp
+  4d:	59                   	pop    %ecx
+  4e:	5b                   	pop    %ebx
+  4f:	5d                   	pop    %ebp
+  50:	8d 61 fc             	lea    -0x4(%ecx),%esp
+  53:	c3                   	ret    
+
+Disassembly of section .text.__x86.get_pc_thunk.ax:
+
+00000000 <__x86.get_pc_thunk.ax>:
+   0:	8b 04 24             	mov    (%esp),%eax
+   3:	c3                   	ret    

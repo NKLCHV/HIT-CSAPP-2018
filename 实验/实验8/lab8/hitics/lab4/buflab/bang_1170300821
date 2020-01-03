@@ -1,0 +1,11 @@
+
+bangg.o：     文件格式 elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	b8 69 dd d3 57       	mov    $0x57d3dd69,%eax
+   5:	a3 60 e1 04 08       	mov    %eax,0x804e160
+   a:	68 39 8c 04 08       	push   $0x8048c39
+   f:	c3                   	ret    
